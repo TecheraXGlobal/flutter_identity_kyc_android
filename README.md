@@ -1,10 +1,10 @@
-# flutter_identity_kyc
+# flutter_identity_kyc_android
 
 Prembly 2.0 KYC Checkout flutter Wrapper
 
 # Getting Started
 
-Install package by adding  flutter_identity_kyc to your pubspec.yaml file
+Install package by adding  flutter_identity_kyc_android to your pubspec.yaml file
 
 
 # KYC Widget
@@ -79,7 +79,7 @@ Add the following permission to your android "info.plist" file
 # Sample implementation
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_identity_kyc/flutter_identity_kyc.dart';
+import 'package:flutter_identity_kyc_android/flutter_identity_kyc_android.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() {

@@ -1,4 +1,4 @@
-group 'com.kayyode.flutter_identity_kyc'
+group 'com.kayyode.flutter_identity_kyc_android'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -36,7 +36,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion  // Use the parent project's compileSdkVersion
-    namespace 'com.example.flutter_identity_kyc' // Replace with your app's package name
+    namespace 'com.example.flutter_identity_kyc_android' // Replace with your app's package name
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

@@ -1,4 +1,4 @@
-package com.flutter_identity_kyc
+package com.flutter_identity_kyc_android
 
 import androidx.annotation.NonNull
 
@@ -17,7 +17,7 @@ class FlutterIdentityKycPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_identity_kyc")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_identity_kyc_android")
     channel.setMethodCallHandler(this)
   }
 

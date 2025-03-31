@@ -55,7 +55,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_identity_kyc:
+  flutter_identity_kyc_android:
     dependency: "direct main"
     description:
       path: ".."

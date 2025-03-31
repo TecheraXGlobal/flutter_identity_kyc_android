@@ -1,6 +1,6 @@
-# flutter_identity_kyc_example
+# flutter_identity_kyc_android_example
 
-Demonstrates how to use the flutter_identity_kyc plugin.
+Demonstrates how to use the flutter_identity_kyc_android plugin.
 
 ## Getting Started
 

@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftFlutterIdentityKycPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_identity_kyc", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "flutter_identity_kyc_android", binaryMessenger: registrar.messenger())
     let instance = SwiftFlutterIdentityKycPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

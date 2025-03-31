@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('flutter_identity_kyc');
+  const MethodChannel channel = MethodChannel('flutter_identity_kyc_android');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

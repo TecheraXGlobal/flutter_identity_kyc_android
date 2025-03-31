@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_identity_kyc/widgets/webview.dart';
+import 'package:flutter_identity_kyc_android/widgets/webview.dart';
 
 class InputParameters {
   //context

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_identity_kyc/flutter_identity_kyc.dart';
+import 'package:flutter_identity_kyc_android/flutter_identity_kyc_android.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() {
